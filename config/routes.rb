@@ -1,4 +1,11 @@
 Videoapp::Application.routes.draw do
+
+  root to: 'static_pages#home'
+
+  match '/videos',        to: 'static_pages#videos'
+  match '/stuff',        to: 'static_pages#stuff'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
