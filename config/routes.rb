@@ -4,6 +4,7 @@ Videoapp::Application.routes.draw do
 
   match '/videos',        to: 'static_pages#videos'
   match '/stuff',        to: 'static_pages#stuff'
+  match '/bild',        to: 'static_pages#bild'
 
 
   # The priority is based upon order of creation:

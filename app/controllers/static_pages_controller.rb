@@ -7,4 +7,8 @@ class StaticPagesController < ApplicationController
 
   def stuff
   end
+
+  def bild
+  end
+ 
 end
